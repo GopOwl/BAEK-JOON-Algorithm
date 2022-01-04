@@ -5,8 +5,8 @@ let input = fs.readFileSync(__dirname + '/input.txt').toString().split('/n');
 input = input[0];
 input = input.split(' ').map(value => +value);
 
-multi(input[0], input[1]);
+divide(input[0], input[1]);
 
-function multi(a,b) {
+function divide(a,b) {
     console.log(a/b); 
 }
