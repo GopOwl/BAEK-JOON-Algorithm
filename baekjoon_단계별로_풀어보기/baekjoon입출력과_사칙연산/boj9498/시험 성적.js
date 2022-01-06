@@ -2,10 +2,9 @@ const fs = require('fs');
 const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt';
 let input = fs.readFileSync(__dirname + '/input.txt').toString().split('\n');
 
-// input = input.map(value => +value);
+input = input.map(value => +value);
 
-solution(+input);
-console.log(typeof input)
+solution(input);
 
 function solution(a) {
     if (a >= 90) {
