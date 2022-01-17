@@ -8,3 +8,6 @@ https://www.acmicpc.net/problem/10950
 const testcaseArray = []; 배열을 선언하는 방법중 하나 빈 배열을 생성했다는 의미이다
 testcaseArray[i][0]; 배열안에 배열 요소에 접근할때 사용하는 방식
 testcaseArray.push 여기서 push는 배열에 요소를 추가할때 사용한다 
+
+
+주석 처리한 부분대로 해도 같은 결과가 나온다 
