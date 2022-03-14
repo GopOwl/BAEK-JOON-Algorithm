@@ -11,7 +11,6 @@ function solution(T) {
         const k = +input.shift();
         const n = +input.shift();
         const house = Array.from(Array(k + 1), () => Array(n+1).fill(0));
-        console.log(house)
         for (let i = 1; i <= n; i++) {
             house[0][i] = i;
         }
