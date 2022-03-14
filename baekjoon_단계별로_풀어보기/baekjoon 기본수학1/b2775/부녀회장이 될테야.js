@@ -7,10 +7,10 @@ const T = Number(input.shift());
 solution(T);
 
 function solution(T) {
-    for (let i = 0; i<T; i++) {
+    for (let i = 0; i < T; i++) {
         const k = +input.shift();
         const n = +input.shift();
-        const house = Array.from(Array(k + 1), () => Array(n+1).fill(0));
+        const house = Array.from(Array(k + 1), () => Array(n + 1).fill(0));
         for (let i = 1; i <= n; i++) {
             house[0][i] = i;
         }
@@ -21,5 +21,4 @@ function solution(T) {
         }
         console.log(house[k][n]);
     }
- 
 }
