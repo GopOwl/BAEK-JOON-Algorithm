@@ -3,7 +3,7 @@ const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt';
 let input = fs.readFileSync(__dirname + '/input.txt').toString().split('\n');
 
 const testcaseArray = [];
-for (let i = 1; i <= +input[0].length; i++) {
+for (let i = 1; i <= +input[0]; i++) {
     const hotelValue = input[i].split(' ').map(value => +value);
     testcaseArray.push({ H: hotelValue[0], W: hotelValue[1], N: hotelValue[2] })
 }
