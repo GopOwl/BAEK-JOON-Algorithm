@@ -15,9 +15,9 @@ function solution(testcase) {
         if (A + B === 0) {
             break;
         }
-        if (A === 0 && B === 0) { // 라매개발자 유튜브 
-            break;
-        }
+        // if (A === 0 && B === 0) {  라매개발자 유튜브 
+        //     break;
+        // }
         console.log(A + B)
     }
 }
